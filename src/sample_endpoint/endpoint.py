@@ -12,6 +12,10 @@ MODEL = load_model()
 app = FastAPI()
 FIELDS = list(CaliData.schema()["properties"].keys())
 
+@app.post("/")
+def welcome():
+    return {"Hello": "World"}
+
 
 @app.post("/predict")
 def predict(data_input: CaliData):

@@ -10,5 +10,9 @@ test:
 clean:
 	rm -rf .pytest_cache
 	rm -rf src/sample_endpoint/__pycache__/
+	rm -rf src/sample_endpoint/model/
 	rm -rf src/sample_endpoint.egg-info/
 	rm -rf tests/__pycache__/
+
+build: clean
+	docker build -t sample-endpoint .
