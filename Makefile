@@ -1,6 +1,9 @@
 install:
 	pip install -e .[dev]
 
+install_private_repo:
+	pip install git+https://github.com/sarodz/sample_sklearn@main
+
 test:
 	pytest
 
