@@ -18,7 +18,7 @@ jobs:
           python-version: '3.9.6'
       
       - name: Install sample_sklearn
-        run: pip install git+https//{{secrets.ACCESS_TOKEN}}@github.com/sarodz/sample_sklearn@main
+        run: pip install git+https//${{secrets.ACCESS_TOKEN}}@github.com/sarodz/sample_sklearn@main
 
       - name: Install dependencies
         run: make install
