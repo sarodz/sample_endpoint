@@ -11,5 +11,4 @@ WORKDIR /app
 COPY . .
 RUN make install
 
-ENTRYPOINT ["bash"]
-# CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "sample_endpoint.endpoint:app"]
+CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "sample_endpoint.endpoint:app"]
