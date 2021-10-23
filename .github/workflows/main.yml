@@ -17,8 +17,8 @@ jobs:
         with:
           python-version: '3.9.6'
       
-      - name: Escalate authentication
-        run:  git config --global url."https://${{ secrets.ACCESS_TOKEN }}@github".insteadOf https://github
+      # - name: Escalate authentication
+      #   run:  git config --global url."https://${{ secrets.ACCESS_TOKEN }}@github".insteadOf https://github
 
       - name: Install dependencies
         run: make install
