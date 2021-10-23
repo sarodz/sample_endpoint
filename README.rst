@@ -1,27 +1,27 @@
 .. These are examples of badges you might want to add to your README:
    please update the URLs accordingly
 
-    .. image:: https://api.cirrus-ci.com/github/<USER>/sample_deployment.svg?branch=main
+    .. image:: https://api.cirrus-ci.com/github/<USER>/sample_endpoint.svg?branch=main
         :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/sample_deployment
-    .. image:: https://readthedocs.org/projects/sample_deployment/badge/?version=latest
+        :target: https://cirrus-ci.com/github/<USER>/sample_endpoint
+    .. image:: https://readthedocs.org/projects/sample_endpoint/badge/?version=latest
         :alt: ReadTheDocs
-        :target: https://sample_deployment.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/sample_deployment/main.svg
+        :target: https://sample_endpoint.readthedocs.io/en/stable/
+    .. image:: https://img.shields.io/coveralls/github/<USER>/sample_endpoint/main.svg
         :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/sample_deployment
-    .. image:: https://img.shields.io/pypi/v/sample_deployment.svg
+        :target: https://coveralls.io/r/<USER>/sample_endpoint
+    .. image:: https://img.shields.io/pypi/v/sample_endpoint.svg
         :alt: PyPI-Server
-        :target: https://pypi.org/project/sample_deployment/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/sample_deployment.svg
+        :target: https://pypi.org/project/sample_endpoint/
+    .. image:: https://img.shields.io/conda/vn/conda-forge/sample_endpoint.svg
         :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/sample_deployment
-    .. image:: https://pepy.tech/badge/sample_deployment/month
+        :target: https://anaconda.org/conda-forge/sample_endpoint
+    .. image:: https://pepy.tech/badge/sample_endpoint/month
         :alt: Monthly Downloads
-        :target: https://pepy.tech/project/sample_deployment
+        :target: https://pepy.tech/project/sample_endpoint
     .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
         :alt: Twitter
-        :target: https://twitter.com/sample_deployment
+        :target: https://twitter.com/sample_endpoint
 
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
@@ -30,7 +30,7 @@
 |
 
 =================
-sample_deployment
+sample_endpoint
 =================
 
 

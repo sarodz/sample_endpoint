@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from sample_sklearn.train import main 
 from sample_sklearn.load import load_model
-from sample_deployment.base import CaliData 
+from sample_endpoint.base import CaliData 
 import json
 import numpy as np
 

@@ -1,6 +1,6 @@
 import pytest
 
-from sample_deployment.skeleton import fib, main
+from sample_endpoint.skeleton import fib, main
 
 __author__ = "sarodz"
 __copyright__ = "sarodz"

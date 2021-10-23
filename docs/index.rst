@@ -1,8 +1,8 @@
 =================
-sample_deployment
+sample_endpoint
 =================
 
-This is the documentation of **sample_deployment**.
+This is the documentation of **sample_endpoint**.
 
 .. note::
 
