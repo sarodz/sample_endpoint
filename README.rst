@@ -34,10 +34,7 @@ sample_endpoint
 =================
 
 
-    Add a short description here!
-
-
-A longer description of your project goes here...
+    You can run ``make install`` to install the package. The endpoint file in src/sample_endpoint contains the code for deploying a model behind FastAPI.
 
 
 .. _pyscaffold-notes:
